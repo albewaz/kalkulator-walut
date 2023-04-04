@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Kalkulator walutowy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">KALKULATOR WALUTOWY</legend>
+            <div>
+                <p>
+                    <label> Kwota w PLN
+                        <input type="number" min="0" required class="form__amount js-amount"
+                            placeholder="$$$$$">
+                    </label>
+                </p>
+            </div>
+            <div>
+                <label>NA:
+                    <select class="form__currency js-currency">
+                        <option selected>EUR</option>
+                        <option>USD</option>
+                    </select>
+                </label>
+                <span class="form__result js-result">$$$$$</span>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
