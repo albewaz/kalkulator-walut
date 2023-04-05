@@ -18,6 +18,7 @@
     background-image: url("/css/images/bitcoin-gaf7597f73_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .form {
