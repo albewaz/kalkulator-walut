@@ -15,7 +15,9 @@
     margin: 5% auto;
     text-align: center;
     box-shadow: 50px;
-    background-image: url(/images/bitcoin-gaf7597f73_1920.jpg);
+    background-image: url("/images/bitcoin-gaf7597f73_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form {
@@ -40,6 +42,6 @@
 
 .form__currency {
     padding: 5px;
-    margin-bottom : 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
