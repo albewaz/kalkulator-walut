@@ -1,16 +1,16 @@
 console.log("Cześć");
 
-let formElement = document.querySelector(".js-form");
-let currencyElement = document.querySelector(".js-currency");
-let amountElement = document.querySelector(".js-amount");
-let resultElement = document.querySelector(".js-result");
+const formElement = document.querySelector(".js-form");
+const currencyElement = document.querySelector(".js-currency");
+const amountElement = document.querySelector(".js-amount");
+const resultElement = document.querySelector(".js-result");
 
-let eur = 4.69;
-let usd = 4.45;
+const eur = 4.69;
+const usd = 4.45;
 
-function updateResult() {
-    let amount = amountElement.value;
-    let currency = currencyElement.value;
+const updateResult = () => {
+    const amount = amountElement.value;
+    const currency = currencyElement.value;
     let result, currencyText;
 
     switch (currency) {
@@ -33,7 +33,3 @@ function updateResult() {
 
 amountElement.addEventListener("input", updateResult);
 currencyElement.addEventListener("change", updateResult);
-
-
-
-
