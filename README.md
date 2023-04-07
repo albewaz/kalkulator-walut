@@ -1,0 +1,8 @@
+# Currency Calculator
+![currency calculator](https://github.com/albewaz/kalkulator-walut/blob/main/Screen%20Recording%20-%207%20kwiecie%C5%84%202023.gif?raw=true)
+
+## Description
+This is a currency calculator that converts PLN to US dollars and EUR
+
+## Demo
+https://albewaz.github.io/kalkulator-walut/
