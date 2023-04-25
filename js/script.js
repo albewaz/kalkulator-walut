@@ -1,3 +1,4 @@
+{
 const eur = 4.69;
 const usd = 4.45;
 
@@ -32,3 +33,4 @@ const init = () => {
 }
 
 init();
+}
